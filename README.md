@@ -14,7 +14,8 @@ Clicking on a node returns information about the type of threat.
 ![Alt text](media/info.PNG?raw=true "Node information")
 
 ## Publication
-The website can be found at https://www.cybersecuritree.com.
+The website can be found at https://richardld.github.io/cybersecurity-tree/cybersecuritree/www/actual.html.
+(Alternatively, at www.cybersecuritree.com)
 
 #### Attributions
 This project was completed with the following libraries:  
