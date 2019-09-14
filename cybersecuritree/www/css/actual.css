@@ -1,0 +1,95 @@
+@font-face {
+  font-family: FuturaHandwritten;
+  src: url('fonts/FuturaHandwritten.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaHandwritten.woff') format('woff'),
+        url('fonts/FuturaHandwritten.ttf')  format('truetype'),
+        url('fonts/FuturaHandwritten.svg#svgFontName') format('svg');
+}
+
+h1 {
+  font: 60px FuturaHandwritten;
+  text-align: center;
+  color: white;
+  min-width: 500px;
+  min-height: 20px;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font: 20px FuturaHandwritten;
+  text-align: center;
+  color: white;
+
+  position: absolute;
+  padding: 30px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  font: 30px FuturaHandwritten;
+  text-align: center;
+  color: #777777;
+
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #202020;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+
+  position: absolute;
+  bottom: 0;
+
+}
+
+li {
+  float: left;
+  color: #505050;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 14px FuturaHandwritten;
+  color: #505050;
+}
+
+.credits {
+  display: block;
+  float: right;
+  color: #505050;
+  font: 14px FuturaHandwritten;
+  padding: 4px 16px;
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+  bottom: 0;
+
+}
+
+.secret {
+  color: #202020;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: grey;
+}

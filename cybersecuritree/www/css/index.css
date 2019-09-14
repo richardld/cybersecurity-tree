@@ -1,0 +1,129 @@
+@font-face {
+  font-family: FuturaHandwritten;
+  src: url('fonts/FuturaHandwritten.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaHandwritten.woff') format('woff'),
+        url('fonts/FuturaHandwritten.ttf')  format('truetype'),
+        url('fonts/FuturaHandwritten.svg#svgFontName') format('svg');
+}
+
+svg {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+
+.chart{
+  color: white;
+  background-color: blue;
+  font: 15px sans-serif;
+  margin: 1px;
+  padding: 3px;
+  text-align: right;
+
+}
+
+.frame {
+  display: block;
+  margin: auto;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font: 12px sans-serif;
+}
+
+h1 {
+  font: 50px FuturaHandwritten;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font: 14px sans-serif;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  font: 16px FuturaHandwritten;
+  text-align: center;
+  color: #777777;
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body, .desc {
+  margin:auto;
+  width: 1000px;
+  background-color: #202020;
+  font: 20px FuturaHandwritten, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #202020;
+  display: block;
+  float: left;
+  color: #606060;
+  font: 14px FuturaHandwritten;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #505050;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 14px FuturaHandwritten;
+}
+
+.credits {
+  display: block;
+  float: right;
+  color: #505050;
+  font: 14px FuturaHandwritten;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  bottom: 0;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  color: grey;
+}
